@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}

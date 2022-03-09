@@ -7,9 +7,10 @@
 img {
   width: 100%;
   position: absolute;
+  z-index: -1;
 }
 
-.tasksWrapper {
+.mainWrapper {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -17,8 +18,12 @@ img {
   align-items: center;
 }
 
-.tasksContainer {
+.middleWrapper {
   width: 50%;
+}
+
+.tasksContainer {
+  width: 100%;
   background-color: #FFFFFF;
   border-radius: 10px;
   filter: drop-shadow(0 0 0.75rem #9495A5);

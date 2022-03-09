@@ -1,11 +1,16 @@
 <div class="container">
   <img src="/assets/images/bg-desktop-light.jpg" alt="mountain background" />
-  <div class="tasksWrapper">
-    <div class="tasksContainer">
-      <app-task-item 
-        *ngFor="let task of tasks"
-      [task]="task"
-      ></app-task-item>
+  <div class="mainWrapper">
+    <div class="middleWrapper">
+      <app-header></app-header>
+    
+      <div class="tasksContainer">
+        <app-task-item 
+          *ngFor="let task of tasks"
+        [task]="task"
+        ></app-task-item>
+      </div>
+      <app-footer></app-footer>
     </div>
   </div>
 </div>
