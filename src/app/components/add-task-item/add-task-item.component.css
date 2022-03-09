@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.75rem #9495A5);
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  height: auto;
+  outline: none;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.25px;
+  font-weight: 400;
+}
+
+input::placeholder {
+  color: #9495A5;
+}

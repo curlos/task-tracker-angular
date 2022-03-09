@@ -6,13 +6,6 @@
   border-bottom: 1px solid #E3E4F1;
 }
 
-.checkWrapper {
-  border: 1px solid #E3E4F1;
-  border-radius: 50%;
-  height: 24px;
-  width: 24px;
-}
-
 p {
   font-size: 18px;
   letter-spacing: -0.25px;

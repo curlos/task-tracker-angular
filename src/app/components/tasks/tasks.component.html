@@ -3,12 +3,26 @@
   <div class="mainWrapper">
     <div class="middleWrapper">
       <app-header></app-header>
+
+      <app-add-task-item></app-add-task-item>
     
       <div class="tasksContainer">
         <app-task-item 
           *ngFor="let task of tasks"
         [task]="task"
         ></app-task-item>
+
+        <div class="tasksInfoAndActions">
+          <div>5 items left</div>
+
+          <div class="buttons">
+            <button class="selectedFilter">All</button>
+            <button>Active</button>
+            <button>Completed</button>
+          </div>
+          
+          <div>Clear Completed</div>
+        </div>
       </div>
       <app-footer></app-footer>
     </div>
