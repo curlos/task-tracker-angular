@@ -1,11 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Complete online JavaScript course",
-      "complete": true
-    },
-    {
       "id": 2,
       "text": "Jog around the park 3x",
       "complete": false
@@ -13,11 +8,6 @@
     {
       "id": 3,
       "text": "10 minutes meditation",
-      "complete": false
-    },
-    {
-      "id": 4,
-      "text": "Read for 1 hour",
       "complete": false
     },
     {
@@ -34,6 +24,36 @@
       "text": "w",
       "complete": false,
       "id": 7
+    },
+    {
+      "text": "sdg",
+      "complete": false,
+      "id": 8
+    },
+    {
+      "text": "dsf",
+      "complete": false,
+      "id": 9
+    },
+    {
+      "text": "sdf",
+      "complete": false,
+      "id": 10
+    },
+    {
+      "text": "sdf",
+      "complete": false,
+      "id": 11
+    },
+    {
+      "text": "d",
+      "complete": false,
+      "id": 12
+    },
+    {
+      "text": "adsadad",
+      "complete": false,
+      "id": 13
     }
   ]
 }

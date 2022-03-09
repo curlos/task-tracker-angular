@@ -9,7 +9,8 @@
       <div class="tasksContainer">
         <app-task-item 
           *ngFor="let task of tasks"
-        [task]="task"
+          [task]="task"
+          (deleteClick)="deleteTask(task)"
         ></app-task-item>
 
         <div class="tasksInfoAndActions">
