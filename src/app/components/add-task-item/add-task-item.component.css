@@ -19,6 +19,7 @@ input {
   font-size: 18px;
   letter-spacing: -0.25px;
   font-weight: 400;
+  caret-color: #3A7CFD;
 }
 
 input::placeholder {

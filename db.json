@@ -29,6 +29,11 @@
       "id": 6,
       "text": "Complete Todo App on Frontend Mentor",
       "complete": false
+    },
+    {
+      "text": "w",
+      "complete": false,
+      "id": 7
     }
   ]
 }

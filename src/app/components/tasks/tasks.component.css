@@ -50,11 +50,22 @@ img {
   justify-content: center;
 }
 
-.buttons button {
+.tasksInfoAndActions button {
   border: none;
   background-color: transparent;
   font-weight: bold;
   color: #9495A5;
+  font-size: 14px;
+  letter-spacing: -0.19px;
+  font-weight: 400;
+}
+
+.buttons button {
+  font-weight: 700;
+}
+
+.tasksInfoAndActions button:active {
+  color: #494C6B;
 }
 
 .buttons button.selectedFilter {

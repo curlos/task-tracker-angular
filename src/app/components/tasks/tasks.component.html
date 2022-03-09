@@ -4,7 +4,7 @@
     <div class="middleWrapper">
       <app-header></app-header>
 
-      <app-add-task-item></app-add-task-item>
+      <app-add-task-item (onAddTask)="addTask($event)"></app-add-task-item>
     
       <div class="tasksContainer">
         <app-task-item 
@@ -21,7 +21,7 @@
             <button>Completed</button>
           </div>
           
-          <div>Clear Completed</div>
+          <button>Clear Completed</button>
         </div>
       </div>
       <app-footer></app-footer>

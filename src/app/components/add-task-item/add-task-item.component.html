@@ -1,6 +1,6 @@
-<div class="container">
+<form class="container" (ngSubmit)="onSubmit()">
   <div class="checkWrapper">
 
   </div>
-  <input type="text" placeholder="Create a new todo...">
-</div>
+  <input type="text" name="todoText" [(ngModel)]="todoText" placeholder="Create a new todo...">
+</form>
