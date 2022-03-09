@@ -3,3 +3,23 @@
   width: 100vh;
   min-width: 100%;
 }
+
+img {
+  width: 100%;
+  position: absolute;
+}
+
+.tasksWrapper {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasksContainer {
+  width: 50%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.75rem #9495A5);
+}
