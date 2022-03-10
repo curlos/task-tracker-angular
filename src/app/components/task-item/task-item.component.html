@@ -1,9 +1,9 @@
 <div class="container">
   <div class="left">
-    <div class="checkWrapper">
-
+    <div [ngClass]="{ complete: task.complete }" class="checkWrapper" (click)="toggleComplete()">
+      <img *ngIf="task.complete" src="/assets/images/icon-check.svg" alt="check icon" />
     </div>
-    <p>{{ task.text }}</p>
+    <p [ngClass]="{ textComplete: task.complete }">{{ task.text }}</p>
   </div>
   
   <button class="right">

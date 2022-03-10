@@ -29,4 +29,9 @@ export class TaskService {
     const url = `${this.apiUrl}/${task.id}`
     return this.http.delete<Task>(url)
   }
+
+  toggleCompleteTask(task: Task): Observable<Task> {
+    const url = `${this.apiUrl}/${task.id}`
+    return this.http.put<Task>(url, task, httpOptions)
+  }
 }

@@ -71,3 +71,15 @@ img {
 .buttons button.selectedFilter {
   color: #3A7CFD;
 }
+
+@media only screen and (max-width: 900px) {
+  .middleWrapper {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middleWrapper {
+    width: 90%;
+  }
+}

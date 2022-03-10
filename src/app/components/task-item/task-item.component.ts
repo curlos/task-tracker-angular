@@ -8,7 +8,8 @@ import { Task } from '../../Task';
 })
 export class TaskItemComponent implements OnInit {
   @Input() task!: Task
-  @Output() deleteClick = new EventEmitter()
+  @Output() deleteTaskClick = new EventEmitter()
+  @Output() toggleCompleteClick = new EventEmitter()
 
   constructor() { }
 
@@ -16,7 +17,11 @@ export class TaskItemComponent implements OnInit {
   }
 
   onDeleteClick() {
-    this.deleteClick.emit()
+    this.deleteTaskClick.emit()
+  }
+
+  toggleComplete() {
+    this.toggleCompleteClick.emit()
   }
 
 }

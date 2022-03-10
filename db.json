@@ -6,11 +6,6 @@
       "complete": false
     },
     {
-      "id": 3,
-      "text": "10 minutes meditation",
-      "complete": false
-    },
-    {
       "id": 5,
       "text": "Pick up groceries",
       "complete": false
@@ -22,28 +17,8 @@
     },
     {
       "text": "w",
-      "complete": false,
+      "complete": true,
       "id": 7
-    },
-    {
-      "text": "sdg",
-      "complete": false,
-      "id": 8
-    },
-    {
-      "text": "dsf",
-      "complete": false,
-      "id": 9
-    },
-    {
-      "text": "sdf",
-      "complete": false,
-      "id": 10
-    },
-    {
-      "text": "sdf",
-      "complete": false,
-      "id": 11
     },
     {
       "text": "d",

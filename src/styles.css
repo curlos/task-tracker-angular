@@ -143,10 +143,3 @@ a,
 button {
   cursor: pointer;
 }
-
-.checkWrapper {
-  border: 1px solid #E3E4F1;
-  border-radius: 50%;
-  height: 24px;
-  width: 24px;
-}

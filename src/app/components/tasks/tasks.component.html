@@ -7,19 +7,25 @@
       <app-add-task-item (onAddTask)="addTask($event)"></app-add-task-item>
     
       <div class="tasksContainer">
-        <app-task-item 
-          *ngFor="let task of tasks"
-          [task]="task"
-          (deleteClick)="deleteTask(task)"
-        ></app-task-item>
+        <div 
+          cdkDropList
+        >
+          <app-task-item 
+            *ngFor="let task of shownTasks"
+            [task]="task"
+            (deleteTaskClick)="deleteTask(task)"
+            (toggleCompleteClick)="toggleCompleteTask(task)"
+            cdkDrag
+          ></app-task-item>
+        </div>
 
         <div class="tasksInfoAndActions">
-          <div>5 items left</div>
+          <div>{{ incompleteTasks.length }} items left</div>
 
           <div class="buttons">
-            <button class="selectedFilter">All</button>
-            <button>Active</button>
-            <button>Completed</button>
+            <button (click)="changeFilter('All')" [ngClass]="{ selectedFilter: filter === 'All'}">All</button>
+            <button (click)="changeFilter('Active')" [ngClass]="{ selectedFilter: filter === 'Active'}">Active</button>
+            <button (click)="changeFilter('Completed')" [ngClass]="{ selectedFilter: filter === 'Completed'}">Completed</button>
           </div>
           
           <button>Clear Completed</button>
